@@ -1,0 +1,12 @@
+class Solution
+{
+
+
+    static long find(int N)
+{
+      
+  return N+1;
+ 
+
+}
+}

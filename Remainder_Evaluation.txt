@@ -1,0 +1,15 @@
+class Solution
+{
+    
+static int findRemainder(int num1,int num2)
+{
+        
+int a=num1%num2;
+        
+//System.out.println("The remainder after dividing "+num1+" by "+num2+" is: "+a);
+       
+ return a;
+        
+   
+ }
+}
