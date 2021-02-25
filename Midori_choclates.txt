@@ -1,0 +1,15 @@
+class Solution 
+{
+    
+	static long leftShops(long i, long L)
+	{
+        
+		long n= (long)Math.pow(2,L);
+ 
+		long ans= n-i;
+        
+		return ans;
+    
+	}
+
+}

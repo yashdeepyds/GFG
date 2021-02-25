@@ -1,0 +1,25 @@
+class Solution
+
+{
+    
+	public long sumofproduct(int n)
+    
+	{
+        
+		long sum=0,x;
+        
+		for( x=1;x<=n;x++)
+        
+		{
+            
+			long y=n/x;
+            
+			sum=sum+(y*x);
+        
+		}
+        
+		return sum;
+    
+	}
+
+}
